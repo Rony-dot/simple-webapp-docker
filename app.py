@@ -6,9 +6,13 @@ app = Flask(__name__)
 def main():
     return "Welcome!"
 
-@app.route('/how are you')
+@app.route('/hello')
 def hello():
-    return 'I am good, how about you?'
+    return 'Hi there!'
+
+@app.route('/bye')
+def hi():
+    return 'See you again!'
 
 if __name__ == "__main__":
     app.run()
