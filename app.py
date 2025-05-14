@@ -11,8 +11,12 @@ def hello():
     return 'Hi there!'
 
 @app.route('/bye')
-def hi():
+def bye():
     return 'See you again!'
+
+@app.route('/hi')
+def hi():
+    return 'Hello there!'
 
 if __name__ == "__main__":
     app.run()
