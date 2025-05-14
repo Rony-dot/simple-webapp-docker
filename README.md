@@ -1,0 +1,2 @@
+- building the docker image: `docker build -t  backend .`
+- running the container: `docker run -d -p 8082:8080 --name backend_05142025 backend`
